@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+﻿using System.Collections.Generic;
+using System.Windows.Forms;
 
 namespace GitTestApp
 {
@@ -9,6 +10,14 @@ namespace GitTestApp
         public Form1()
         {
             InitializeComponent();
+
+            var thing = new List<string>()
+            {
+                "hello",
+                "dolly",
+                "well",
+                "hello dolly"
+            };
         }
     }
 }
