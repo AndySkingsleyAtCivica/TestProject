@@ -9,7 +9,11 @@ namespace GitTestApp
         {
             InitializeComponent();
 
-            var thing = new List<string>("hello", "dolly");
+            var thing = new List<string>()
+            {
+                "hello",
+                "dolly"
+            };
         }
     }
 }
