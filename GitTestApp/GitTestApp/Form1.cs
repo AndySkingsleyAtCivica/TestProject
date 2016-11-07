@@ -12,9 +12,7 @@ namespace GitTestApp
             var thing = new List<string>()
             {
                 "hello",
-                "dolly",
-                "well",
-                "hello dolly"
+                "dolly"
             };
         }
     }
